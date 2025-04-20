@@ -39,4 +39,5 @@ for t = 1:T
     axis equal;
     title(['Time step: ', num2str(t)]);
     drawnow;
+    print(x)
 end
